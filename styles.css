@@ -1,0 +1,80 @@
+header {
+    background-color: rgb(169, 51, 53);
+    display: flex;
+    justify-content: center;
+}
+body{
+    height: 100vh;
+    font-size: larger;
+    background-color: #d5e0f2;
+}
+
+.left_side_button {
+    min-width: 100px;
+    max-width: 200px;
+    background-color: #842224;
+    border: none;
+    cursor: pointer;
+    margin-right: auto;
+    transition: background-color 0.3s;
+}
+.left_side_button:hover{
+    background-color: rgb(169, 51, 53);
+}
+.header_title {
+    text-align: center;
+    margin-right: auto;
+    
+}
+.dateRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emptyButton{
+    background: none;
+    border: none;
+}
+.button_icon{
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 70px;
+    max-height: 70px;
+    transition: opacity 0.3s;
+    cursor: pointer;
+}
+.button_icon:hover{
+    opacity: 50%;
+}
+.eventsTable{
+    width: 100%;
+    background-color: beige;
+    border-collapse: collapse;
+}
+.eventsTable::after{
+    content: "";
+    display: block;
+    height: 50vh;
+}
+td,th{
+    border: 1px solid black;
+}
+
+.centeredElement{
+    text-align: center;
+    margin-left:50%;
+    margin-right:auto;
+}
+.addEvent{
+    position: relative;
+    text-align: center;
+    transition: background-color 0.3s;
+    min-height: 30px;
+    min-width: 30px;
+    left: 50%;
+    top: 10%;
+    background-color: aquamarine;
+}
+.addEvent:hover{
+    background-color: darkcyan;
+}
