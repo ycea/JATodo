@@ -4,14 +4,16 @@ header {
     justify-content: center;
 }
 body{
+    overflow: hidden;
     height: 100vh;
-    font-size: larger;
+    width: 100vw;
+    font-size: large;
     background-color: #d5e0f2;
+    box-sizing: border-box;
 }
 
 .left_side_button {
-    min-width: 100px;
-    max-width: 200px;
+    min-width: 5vw;
     background-color: #842224;
     border: none;
     cursor: pointer;
@@ -36,10 +38,10 @@ body{
     border: none;
 }
 .button_icon{
-    min-width: 50px;
-    min-height: 50px;
-    max-width: 70px;
-    max-height: 70px;
+    min-width: 5vw;
+    min-height: 5vh;
+    max-width: 10vw;
+    max-height: 10vh;
     transition: opacity 0.3s;
     cursor: pointer;
 }
@@ -67,12 +69,12 @@ td,th{
 }
 .addEvent{
     position: relative;
-    text-align: center;
+    left: 50vw;
+    right: 50vw;
+    top: 3vh;
     transition: background-color 0.3s;
-    min-height: 30px;
-    min-width: 30px;
-    left: 50%;
-    top: 10%;
+    min-height: 5vh;
+    min-width: 6vw;
     background-color: aquamarine;
 }
 .addEvent:hover{
