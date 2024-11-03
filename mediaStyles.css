@@ -1,0 +1,10 @@
+@media (max-width:1080px){
+    .tableContainer{
+        max-height: 40vh;
+    }
+}
+@media(orientation:landscape){
+    .tableContainer{
+        max-height: 30vh;
+    }
+}

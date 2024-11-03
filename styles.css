@@ -51,7 +51,7 @@ body{
 .tableContainer{
     display: flex;
     flex-direction: column;
-    max-height: 20vh;
+    max-height: 60vh;
     max-width: 100vw;
     overflow-y: auto;
     overflow-x: auto;
